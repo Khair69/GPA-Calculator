@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Code\\ASP\\GPA-Calculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\courses\\_coursestablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\courses\\_coursestablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_CoursesTablePartial.cshtml",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Courses\\_CoursesTablePartial.cshtml",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Courses\\_CoursesTablePartial.cshtml",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml.cs",
@@ -76,20 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_AddCoursePartial.cshtml",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
               "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
               "RelativeToolTip": "GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-19T11:01:10.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml",

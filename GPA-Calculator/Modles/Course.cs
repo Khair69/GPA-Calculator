@@ -13,5 +13,7 @@
         public int Year { get; set; }
 
         public int Semester {  get; set; }
+
+        public float Points { get; set; }
     }
 }

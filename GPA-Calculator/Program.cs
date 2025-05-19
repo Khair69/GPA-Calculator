@@ -1,3 +1,7 @@
+using GPA_Calculator.Data;
+using Microsoft.EntityFrameworkCore;
+using SQLitePCL;
+
 namespace GPA_Calculator
 {
     public class Program
@@ -7,6 +11,11 @@ namespace GPA_Calculator
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            Batteries.Init();
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlite(connectionString));
+
             builder.Services.AddRazorPages();
 
             var app = builder.Build();

@@ -1,4 +1,5 @@
 using GPA_Calculator.Data;
+using GPA_Calculator.Services.Calculate;
 using GPA_Calculator.Services.Courses;
 using Microsoft.EntityFrameworkCore;
 using SQLitePCL;
@@ -20,6 +21,7 @@ namespace GPA_Calculator
             builder.Services.AddRazorPages();
 
             builder.Services.AddScoped<ICourseService, CourseService>();
+            builder.Services.AddSingleton<ICalculateService, CalculateService>();
 
             var app = builder.Build();
 

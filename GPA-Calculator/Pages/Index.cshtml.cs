@@ -14,9 +14,11 @@ namespace GPA_Calculator.Pages
             _courseService = courseService;
         }
 
-        public void OnGet()
-        {
+        public IList<Course> Courses { get; set; }
 
+        public async Task OnGetAsync()
+        {
+            Courses = await _courseService.GetAllCoursesAsync();
         }
 
         [BindProperty]
@@ -27,6 +29,7 @@ namespace GPA_Calculator.Pages
             if (!ModelState.IsValid)
             {
                 // Reload items if validation fails
+                Courses = await _courseService.GetAllCoursesAsync();
                 return Page();
             }
 

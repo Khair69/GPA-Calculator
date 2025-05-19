@@ -4,9 +4,11 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    
+<div>
+
+    <!-- Table Partial -->
+    <partial name="/Pages/Courses/_CoursesTablePartial.cshtml" model="Model.Courses" />
+
     <!-- Add Course Section -->
     <div class="mt-4">
         <h2>Add New Course</h2>

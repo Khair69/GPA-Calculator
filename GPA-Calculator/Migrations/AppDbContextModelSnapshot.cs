@@ -42,7 +42,7 @@ namespace GPA_Calculator.Migrations
 
                     b.HasKey("CourseId");
 
-                    b.ToTable("Courses");
+                    b.ToTable("Courses", (string)null);
                 });
 #pragma warning restore 612, 618
         }

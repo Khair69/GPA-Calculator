@@ -1,0 +1,55 @@
+﻿@model GPA_Calculator.Modles.Course
+
+<div class="col-md-4">
+    <form method="post" asp-page-handler="AddCourse">
+        <div class="form-floating mb-3">
+            <input asp-for="CourseId" class="form-control"/>
+            <label asp-for="CourseId"></label>
+            <span asp-validation-for="CourseId" class="text-danger"></span>
+        </div>
+        
+        <div class="form-floating mb-3">
+            <input asp-for="CourseName" class="form-control"/>
+            <label asp-for="CourseName"></label>
+            <span asp-validation-for="CourseName" class="text-danger"></span>
+        </div>
+        
+        <div class="form-group mb-3">
+            <label asp-for="Hours" class="control-label"></label>
+            <select asp-for="Hours" asp-items="Html.GetEnumSelectList<Modles.Enums.CourseHours>()" class="form-control">
+                <option value=" ">-- Select Hours --</option>
+            </select>
+            <span asp-validation-for="Year" class="text-danger"></span>
+        </div>
+        
+        <div class="form-floating mb-3">
+            <input asp-for="Grade" class="form-control"/>
+            <label asp-for="Grade"></label>
+            <span asp-validation-for="Grade" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Year" class="control-label"></label>
+            <select asp-for="Year" asp-items="Html.GetEnumSelectList<Modles.Enums.StudyYears>()" class="form-control">
+                <option value=" ">-- Select Year --</option>
+            </select>
+            <span asp-validation-for="Year" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Semester" class="control-label"></label>
+            <select asp-for="Semester" asp-items="Html.GetEnumSelectList<Modles.Enums.StudySemesters>()" class="form-control">
+                <option value=" ">-- Select Semester --</option>
+            </select>
+            <span asp-validation-for="Semester" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Points" class="form-control"/>
+            <label asp-for="Points"></label>
+            <span asp-validation-for="Points" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+</div>

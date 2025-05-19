@@ -7,4 +7,13 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     
+    <!-- Add Course Section -->
+    <div class="mt-4">
+        <h2>Add New Course</h2>
+        <partial name="/Pages/Courses/_AddCoursePartial.cshtml" model="Model.NewCourse" />
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
 </div>

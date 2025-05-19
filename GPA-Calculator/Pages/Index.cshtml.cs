@@ -1,3 +1,5 @@
+using GPA_Calculator.Modles;
+using GPA_Calculator.Services.Courses;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -5,16 +7,31 @@ namespace GPA_Calculator.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ICourseService _courseService;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ICourseService courseService)
         {
-            _logger = logger;
+            _courseService = courseService;
         }
 
         public void OnGet()
         {
 
+        }
+
+        [BindProperty]
+        public Course NewCourse { get; set; }
+
+        public async Task<IActionResult> OnPostAddCourseAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                // Reload items if validation fails
+                return Page();
+            }
+
+            await _courseService.AddCourseAsync(NewCourse);
+            return RedirectToPage(); // PRG pattern
         }
     }
 }

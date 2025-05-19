@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Code\\ASP\\GPA-Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\services\\courses\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\services\\courses\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\modles\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "GPA-Calculator\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T11:21:54.342Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -51,40 +64,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Services\\Courses\\CourseService.cs",
-              "RelativeDocumentMoniker": "GPA-Calculator\\Services\\Courses\\CourseService.cs",
-              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Services\\Courses\\CourseService.cs",
-              "RelativeToolTip": "GPA-Calculator\\Services\\Courses\\CourseService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T10:46:35.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Services\\Courses\\ICourseService.cs",
-              "RelativeDocumentMoniker": "GPA-Calculator\\Services\\Courses\\ICourseService.cs",
-              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Services\\Courses\\ICourseService.cs",
-              "RelativeToolTip": "GPA-Calculator\\Services\\Courses\\ICourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T10:43:05.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Modles\\Course.cs",
-              "RelativeDocumentMoniker": "GPA-Calculator\\Modles\\Course.cs",
-              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Modles\\Course.cs",
-              "RelativeToolTip": "GPA-Calculator\\Modles\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T10:00:33.309Z",
+              "Title": "_AddCoursePartial.cshtml",
+              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
+              "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
+              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
+              "RelativeToolTip": "GPA-Calculator\\Pages\\Courses\\_AddCoursePartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T11:01:10.566Z",
               "EditorCaption": ""
             },
             {
@@ -95,9 +82,22 @@
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml",
               "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml",
               "RelativeToolTip": "GPA-Calculator\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-19T09:57:11.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Modles\\Course.cs",
+              "RelativeDocumentMoniker": "GPA-Calculator\\Modles\\Course.cs",
+              "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Modles\\Course.cs",
+              "RelativeToolTip": "GPA-Calculator\\Modles\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:00:33.309Z",
               "EditorCaption": ""
             }
           ]

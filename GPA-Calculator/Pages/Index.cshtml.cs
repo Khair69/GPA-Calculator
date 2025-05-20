@@ -22,8 +22,6 @@ namespace GPA_Calculator.Pages
         public async Task OnGetAsync()
         {
             Courses = await _courseService.GetAllCoursesAsync();
-            double g = _calculateService.CalculateGPA(Courses);
-            Console.WriteLine(g);
         }
 
         [BindProperty]
@@ -40,6 +38,20 @@ namespace GPA_Calculator.Pages
 
             await _courseService.AddCourseAsync(NewCourse);
             return RedirectToPage(); // PRG pattern
+        }
+
+        public async Task<JsonResult> OnGetCourseDataAsync()
+        {
+            Console.WriteLine("333333333333333333333333");
+            Courses = await _courseService.GetAllCoursesAsync();
+            var data = Courses.Select(c => new
+            {
+                courseName = c.CourseName,
+                grade = c.Grade,
+                hours = c.Hours
+            }).ToList();
+
+            return new JsonResult(data);
         }
     }
 }

@@ -6,8 +6,17 @@
 
 <div>
 
-    <!-- Table Partial -->
-    <partial name="/Pages/Courses/_CoursesTablePartial.cshtml" model="Model.Courses" />
+    <!-- Table -->
+    @if (!Model.Courses.Any())
+    {
+        <div class="alert alert-info">No items found.</div>
+    }
+    else
+    {
+        <!-- This is the container where Grid.js will render -->
+        <div id="gridjs-wrapper"></div>
+
+    }
 
     <!-- Add Course Section -->
     <div class="mt-4">
@@ -15,7 +24,31 @@
         <partial name="/Pages/Courses/_AddCoursePartial.cshtml" model="Model.NewCourse" />
     </div>
 
-    @section Scripts {
-        <partial name="_ValidationScriptsPartial" />
-    }
 </div>
+
+@section Scripts {
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new gridjs.Grid({
+                columns: [
+                    { name: "Name", id: "courseName" },
+                    { name: "Grade", id: "grade" },
+                    { name: "Hours", id: "hours" }
+                ],
+                server: {
+                    url: '/?handler=CourseData',
+                    then: data => data.map(item => [
+                        item.courseName,
+                        item.grade,
+                        item.hours
+                    ])
+                },
+                search: true,
+                pagination: true,
+                sort: true
+            }).render(document.getElementById("gridjs-wrapper"));
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+}

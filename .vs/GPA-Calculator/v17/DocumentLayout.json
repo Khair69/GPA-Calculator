@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Code\\ASP\\GPA-Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|solutionrelative:gpa-calculator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F23BAEC-17D0-429E-BBF4-9E116CD746C1}|GPA-Calculator\\GPA-Calculator.csproj|d:\\code\\asp\\gpa-calculator\\gpa-calculator\\pages\\courses\\_addcoursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,26 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml",
               "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml",
               "RelativeToolTip": "GPA-Calculator\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC0AAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-19T16:58:48.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "GPA-Calculator\\Pages\\Index.cshtml.cs",
               "ToolTip": "D:\\Code\\ASP\\GPA-Calculator\\GPA-Calculator\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "GPA-Calculator\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T16:58:54.318Z",
               "EditorCaption": ""

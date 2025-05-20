@@ -51,17 +51,14 @@
         });
     </script>
     <script>
-        // Get the element by its ID
         const gpaElement = document.getElementById('gpa-text');
-
-        // Get the text content and convert it to a number
         const gpaValue = parseFloat(gpaElement.textContent);
 
-        // Remove any existing color classes (optional, to prevent multiple classes)
-        gpaElement.classList.remove('--bs-success-text-emphasis', '--bs-warning-text-emphasis', '--bs-danger-text-emphasis');
+        gpaElement.classList.remove('text-success', 'text-warning', 'text-danger', 'rainbow-text');
 
-        // Add the appropriate class based on the GPA value
-        if (gpaValue >= 3) {
+        if (gpaValue === 4.0) {
+            gpaElement.classList.add('rainbow-text'); 
+        } else if (gpaValue >= 3) {
             gpaElement.classList.add('text-success');
         } else if (gpaValue >= 2 && gpaValue < 3) {
             gpaElement.classList.add('text-warning');

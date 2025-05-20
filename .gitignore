@@ -54,7 +54,7 @@ TestResult.xml
 nunit-*.xml
 
 #vs
-.vs/
+/.vs/
 
 #database
 GPA-Calculator/GPADB.db

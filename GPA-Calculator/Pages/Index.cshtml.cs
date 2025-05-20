@@ -18,10 +18,12 @@ namespace GPA_Calculator.Pages
         }
 
         public IList<Course> Courses { get; set; }
+        public double GPA { get; set; }
 
         public async Task OnGetAsync()
         {
             Courses = await _courseService.GetAllCoursesAsync();
+            GPA = _calculateService.CalculateGPA(Courses);
         }
 
         [BindProperty]
@@ -42,13 +44,13 @@ namespace GPA_Calculator.Pages
 
         public async Task<JsonResult> OnGetCourseDataAsync()
         {
-            Console.WriteLine("333333333333333333333333");
             Courses = await _courseService.GetAllCoursesAsync();
             var data = Courses.Select(c => new
             {
                 courseName = c.CourseName,
                 grade = c.Grade,
-                hours = c.Hours
+                hours = c.Hours,
+                id = c.CourseId
             }).ToList();
 
             return new JsonResult(data);

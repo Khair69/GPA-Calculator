@@ -5,7 +5,7 @@
 }
 
 <div>
-
+    <p class="text-center fs-3" id="gpa-text">@Model.GPA</p>
     <!-- Table -->
     @if (!Model.Courses.Any())
     {
@@ -23,25 +23,25 @@
         <h2>Add New Course</h2>
         <partial name="/Pages/Courses/_AddCoursePartial.cshtml" model="Model.NewCourse" />
     </div>
-
 </div>
 
 @section Scripts {
-
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             new gridjs.Grid({
                 columns: [
                     { name: "Name", id: "courseName" },
                     { name: "Grade", id: "grade" },
-                    { name: "Hours", id: "hours" }
+                    { name: "Hours", id: "hours" },
+                    { name: "Actions", id: "actions" }
                 ],
                 server: {
                     url: '/?handler=CourseData',
                     then: data => data.map(item => [
                         item.courseName,
                         item.grade,
-                        item.hours
+                        item.hours,
+                        gridjs.html(`<a asp-page="/Edit" asp-route-id="${item.id}" class="btn btn-outline-info me-1">Edit</a><a asp-page="/Delete" asp-route-id="${item.id}" class="btn btn-outline-danger ms-1">Delete</a>`)
                     ])
                 },
                 search: true,
@@ -49,6 +49,25 @@
                 sort: true
             }).render(document.getElementById("gridjs-wrapper"));
         });
+    </script>
+    <script>
+        // Get the element by its ID
+        const gpaElement = document.getElementById('gpa-text');
+
+        // Get the text content and convert it to a number
+        const gpaValue = parseFloat(gpaElement.textContent);
+
+        // Remove any existing color classes (optional, to prevent multiple classes)
+        gpaElement.classList.remove('--bs-success-text-emphasis', '--bs-warning-text-emphasis', '--bs-danger-text-emphasis');
+
+        // Add the appropriate class based on the GPA value
+        if (gpaValue >= 3) {
+            gpaElement.classList.add('text-success');
+        } else if (gpaValue >= 2 && gpaValue < 3) {
+            gpaElement.classList.add('text-warning');
+        } else if (gpaValue < 2) {
+            gpaElement.classList.add('text-danger');
+        }
     </script>
     <partial name="_ValidationScriptsPartial" />
 }

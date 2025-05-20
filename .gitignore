@@ -58,3 +58,9 @@ nunit-*.xml
 
 #database
 GPA-Calculator/GPADB.db
+/.vs/GPA-Calculator/DesignTimeBuild/.dtbcache.v2
+/.vs/GPA-Calculator/v17/.suo
+/.vs/GPA-Calculator/v17/DocumentLayout.backup.json
+/.vs/GPA-Calculator/v17/DocumentLayout.json
+/GPA-Calculator/GPADB.db-shm
+/GPA-Calculator/GPADB.db-wal
